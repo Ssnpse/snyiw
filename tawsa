@@ -1,0 +1,31 @@
+game.Players.LocalPlayer.Character.Humanoid:WaitForChild("TrailEffects"):Destroy()
+local Char = game.Players.LocalPlayer.Character local Hum = Char:FindFirstChildOfClass("Humanoid") or Char:FindFirstChildOfClass("AnimationController")
+        while true do wait()
+            for i,v in next, Hum:GetPlayingAnimationTracks() do
+                if v.Animation.AnimationId == "rbxassetid://2788289281" then
+                    v:Stop()
+                elseif v.Animation.AnimationId == "rbxassetid://2788292075" then
+                    v:Stop()
+                elseif v.Animation.AnimationId == "rbxassetid://2788309317" then
+                    v:Stop()
+                    elseif v.Animation.AnimationId == "rbxassetid://2788309982" then
+                    v:Stop()                                       
+                    elseif v.Animation.AnimationId == "rbxassetid://3354699999" then
+                    v:Stop()
+                    elseif v.Animation.AnimationId == "rbxassetid://2788305271" then
+                    v:Stop()
+                    elseif v.Animation.AnimationId == "rbxassetid://2788290270" then
+                    v:Stop()
+                    elseif v.Animation.AnimationId == "rbxassetid://2788308661" then
+                    v:Stop()
+                    elseif v.Animation.AnimationId == "rbxassetid://2788307715" then
+                    v:Stop()
+                    elseif v.Animation.AnimationId == "rbxassetid://2788306916" then
+                    v:Stop()
+                   
+                    for i,v in next, Hum:GetPlayingAnimationTracks() do
+
+                    end
+                end
+            end
+        end 
